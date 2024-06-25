@@ -9,4 +9,4 @@ This is a home for [STOCombatAnalyzer](https://github.com/zxeltor/STOCombatAnaly
 ### CombatMapDetectionSettings.json
 This file is used by STOCombatAnalyzer to detect Star Trek Online maps. You can manualy import this file into STOCombatAnalyzer.
 
-Note: Some map/entity definitions from [STOCD/OSCR]([https://github.com/zxeltor/STOCombatAnalyzer](https://github.com/STOCD/OSCR)) were used in this JSON. Kudos to the contributor(s) of this repo for their work.
+**Note:** Some map/entity definitions from [STOCD/OSCR]([https://github.com/zxeltor/STOCombatAnalyzer](https://github.com/STOCD/OSCR)) were used in this JSON. Kudos to the contributor(s) of this repo for their work.
