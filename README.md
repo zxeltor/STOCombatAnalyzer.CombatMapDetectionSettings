@@ -3,6 +3,7 @@
 ## Revision History
 * 2024-06-24 CombatMapDetectionSettings.json(1.0.0.0): Added first version of CombatMapDetectionSettings.json
 * 2024-06-25 CombatMapDetectionSettings.json(1.0.1.0): Added a reference to main exceptions for Nimbus Pirate Distress Call. It was causing false positives for the Nimbus map.
+* 2024-06-26 CombatMapDetectionSettings.json(1.2.0): Added new map detection logic in app. A new optioinal parameter has been added to the JSON to support it. Also updated the versioning to Semantic Versioning 2.0.0.
 
 ## Overview
 This is a home for [STOCombatAnalyzer](https://github.com/zxeltor/STOCombatAnalyzer) settings files.
