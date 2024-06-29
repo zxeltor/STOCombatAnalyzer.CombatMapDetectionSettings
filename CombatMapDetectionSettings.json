@@ -6,7 +6,7 @@
     "EntityExclusionList: This is used to filter out game entity ids from the map detect process.",
     "CombatMapEntityList: The main list of map definitions. This collection is used first when trying to detect a map for a Combat entity."
   ],
-  "JsonVersion": "1.2.0",
+  "JsonVersion": "1.3.2",
   "GenericGroundMap": {
     "Name": "Generic Ground",
     "MapEntities": [
@@ -331,6 +331,94 @@
       "MapEntities": [
         {
           "Pattern": "Range_Mirror"
+        }
+      ],
+      "MapEntityExclusions": []
+    },
+    {
+      "Name": "Gon'Cra System (Tzenkethi Battlezone)",
+      "MapEntities": [
+        {
+          "Pattern": "Space_Tzenkethi_Dreadnought",
+		  "IsUniqueToMap": true
+        },
+		{
+          "Pattern": "Space_Tzenkethi_Battleship",
+        },
+		{
+          "Pattern": "Space_Tzenkethi_Frigate",
+        },
+		{
+          "Pattern": "Space_Tzenkethi_Cruiser_Var2",
+        },
+		{
+          "Pattern": "Space_Tzenkethi_Cruiser_Var1",
+        },
+		{
+          "Pattern": "Space_Tzenkethi_Frigate_Carrier",
+        },
+		{
+          "Pattern": "Space_Tzenkethi_Frigate_Control_Carrier",
+        }
+      ],
+      "MapEntityExclusions": []
+    },
+	{
+      "Name": "Red Alert: Borg",
+      "MapEntities": [
+        {
+          "Pattern": "Space_Borg_Dreadnought_Dse",
+		  "IsUniqueToMap": true
+        },
+		{
+          "Pattern": "Mission_Space_Borg_Battleship_2_Of_10",
+		  "IsUniqueToMap": true
+        }
+      ],
+      "MapEntityExclusions": []
+    },
+	{
+      "Name": "Red Alert: Tholian",
+      "MapEntities": [
+        {
+          "Pattern": "Space_Tholian_Battleship",
+        },
+		{
+          "Pattern": "Space_Tholian_Cruiser",
+        }
+      ],
+      "MapEntityExclusions": []
+    },
+	{
+      "Name": "Red Alert: Na'kuhl",
+      "MapEntities": [
+        {
+          "Pattern": "Space_Nakuhl_Cruiser",
+        },
+		{
+          "Pattern": "Space_Nakuhl_Dreadnought",
+        },
+		{
+          "Pattern": "Space_Nakuhl_Frigate",
+        },
+		{
+          "Pattern": "Space_Nakuhl_Constrictor_Node_Dreadnaught",
+		  "IsUniqueToMap": true
+        }
+      ],
+      "MapEntityExclusions": []
+    },
+	{
+      "Name": "DSE: Assimilate the Barbarians (Borg)",
+      "MapEntities": [
+        {
+          "Pattern": "Space_Borg_Battleship",
+        },
+		{
+          "Pattern": "Space_Borg_Frigate",
+        },
+		{
+          "Pattern": "Space_Borg_Cruiser",
         }
       ],
       "MapEntityExclusions": []
