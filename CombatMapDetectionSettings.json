@@ -1,33 +1,16 @@
 {
+  "JsonVersion": "1.3.3",
   "Comments": [
-	"JsonVersion: Uses Semantic Versioning 2.0.0 (Major,Minor,Patch)",
-	"GenericGroundMap: When a map isn't detected when checking CombatMapEntityList, we use this to determine if the Combat entity is on a ground based map.",
+    "JsonVersion: Uses Semantic Versioning 2.0.0 (Major,Minor,Patch)",
+    "GenericGroundMap: When a map isn't detected when checking CombatMapEntityList, we use this to determine if the Combat entity is on a ground based map.",
     "GenericSpaceMap: When a map isn't detected when checking CombatMapEntityList, we use this to determine if the Combat entity is on a space based map.",
     "EntityExclusionList: This is used to filter out game entity ids from the map detect process.",
     "CombatMapEntityList: The main list of map definitions. This collection is used first when trying to detect a map for a Combat entity."
   ],
-  "JsonVersion": "1.3.2",
-  "GenericGroundMap": {
-    "Name": "Generic Ground",
-    "MapEntities": [
-      {
-        "Pattern": "Ground_"
-      }
-    ],
-    "MapEntityExclusions": []
-  },
-  "GenericSpaceMap": {
-    "Name": "Generic Space",
-    "MapEntities": [
-      {
-        "Pattern": "Space_"
-      }
-    ],
-    "MapEntityExclusions": []
-  },
   "EntityExclusionList": [
     {
-      "Pattern": "Space_Nimbus_Pirate_Distress"
+      "Pattern": "Space_Nimbus_Pirate_Distress",
+      "IsUniqueToMap": false
     }
   ],
   "CombatMapEntityList": [
@@ -36,7 +19,7 @@
       "MapEntities": [
         {
           "Pattern": "Space_Borg_Dreadnought_Raidisode_Sibrian_Final_Boss",
-		  "IsUniqueToMap": true
+          "IsUniqueToMap": true
         }
       ],
       "MapEntityExclusions": []
@@ -46,7 +29,7 @@
       "MapEntities": [
         {
           "Pattern": "Mission_Space_Romulan_Colony_Flagship_Lleiset",
-		  "IsUniqueToMap": true
+          "IsUniqueToMap": true
         }
       ],
       "MapEntityExclusions": []
@@ -56,7 +39,7 @@
       "MapEntities": [
         {
           "Pattern": "Space_Klingon_Dreadnought_Dsc_Sarcophagus",
-		  "IsUniqueToMap": true
+          "IsUniqueToMap": true
         }
       ],
       "MapEntityExclusions": []
@@ -66,7 +49,7 @@
       "MapEntities": [
         {
           "Pattern": "Event_Procyon_5_Queue_Krenim_Dreadnaught_Annorax",
-		  "IsUniqueToMap": true
+          "IsUniqueToMap": true
         }
       ],
       "MapEntityExclusions": []
@@ -76,7 +59,7 @@
       "MapEntities": [
         {
           "Pattern": "Mission_Space_Borg_Queen_Diamond_Brg_Queue_Liberation",
-		  "IsUniqueToMap": true
+          "IsUniqueToMap": true
         }
       ],
       "MapEntityExclusions": []
@@ -86,7 +69,7 @@
       "MapEntities": [
         {
           "Pattern": "Mission_Starbase_Mirror_Ds9_Mu_Queue",
-		  "IsUniqueToMap": true
+          "IsUniqueToMap": true
         }
       ],
       "MapEntityExclusions": []
@@ -96,7 +79,7 @@
       "MapEntities": [
         {
           "Pattern": "Space_Crystalline_Entity_2018",
-		  "IsUniqueToMap": true
+          "IsUniqueToMap": true
         }
       ],
       "MapEntityExclusions": []
@@ -106,7 +89,7 @@
       "MapEntities": [
         {
           "Pattern": "Event_Ico_Qonos_Space_Herald_Dreadnaught",
-		  "IsUniqueToMap": true
+          "IsUniqueToMap": true
         }
       ],
       "MapEntityExclusions": []
@@ -116,7 +99,7 @@
       "MapEntities": [
         {
           "Pattern": "Mission_Space_Federation_Science_Herald_Sphere",
-		  "IsUniqueToMap": true
+          "IsUniqueToMap": true
         }
       ],
       "MapEntityExclusions": []
@@ -126,7 +109,7 @@
       "MapEntities": [
         {
           "Pattern": "Msn_Dsc_Priors_System_Tfo_Orbital_Platform_1_Fed_Dsc",
-		  "IsUniqueToMap": true
+          "IsUniqueToMap": true
         }
       ],
       "MapEntityExclusions": []
@@ -136,7 +119,7 @@
       "MapEntities": [
         {
           "Pattern": "Space_Borg_Dreadnought_R02",
-		  "IsUniqueToMap": true
+          "IsUniqueToMap": true
         }
       ],
       "MapEntityExclusions": []
@@ -146,7 +129,7 @@
       "MapEntities": [
         {
           "Pattern": "Space_Klingon_Tos_X3_Battlecruiser",
-		  "IsUniqueToMap": true
+          "IsUniqueToMap": true
         }
       ],
       "MapEntityExclusions": []
@@ -156,7 +139,7 @@
       "MapEntities": [
         {
           "Pattern": "Msn_Luk_Colony_Dranuur_Queue_System_Upgradeable_Satellite",
-		  "IsUniqueToMap": true
+          "IsUniqueToMap": true
         }
       ],
       "MapEntityExclusions": []
@@ -166,7 +149,7 @@
       "MapEntities": [
         {
           "Pattern": "Space_Borg_Dreadnought_Raidisode_Khitomer_Intro_Boss",
-		  "IsUniqueToMap": true
+          "IsUniqueToMap": true
         }
       ],
       "MapEntityExclusions": []
@@ -176,7 +159,7 @@
       "MapEntities": [
         {
           "Pattern": "Mission_Spire_Space_Voth_Frigate",
-		  "IsUniqueToMap": true
+          "IsUniqueToMap": true
         }
       ],
       "MapEntityExclusions": []
@@ -186,7 +169,7 @@
       "MapEntities": [
         {
           "Pattern": "Space_Drantzuli_Alpha_Battleship",
-		  "IsUniqueToMap": true
+          "IsUniqueToMap": true
         }
       ],
       "MapEntityExclusions": []
@@ -196,7 +179,7 @@
       "MapEntities": [
         {
           "Pattern": "Mission_Beta_Lankal_Destructible_Reactor",
-		  "IsUniqueToMap": true
+          "IsUniqueToMap": true
         }
       ],
       "MapEntityExclusions": []
@@ -206,11 +189,11 @@
       "MapEntities": [
         {
           "Pattern": "Space_Federation_Dreadnought_Jupiter_Class_Carrier",
-		  "IsUniqueToMap": true
+          "IsUniqueToMap": true
         },
         {
           "Pattern": "Msn_Luk_Hypermass_Queue_System_Tzk_Protomatter_Facility",
-		  "IsUniqueToMap": true
+          "IsUniqueToMap": true
         }
       ],
       "MapEntityExclusions": []
@@ -220,7 +203,7 @@
       "MapEntities": [
         {
           "Pattern": "Space_Borg_Dreadnought_Hive_Intro",
-		  "IsUniqueToMap": true
+          "IsUniqueToMap": true
         }
       ],
       "MapEntityExclusions": []
@@ -230,7 +213,7 @@
       "MapEntities": [
         {
           "Pattern": "Ground_Federation_Capt_Mirror_Runabout_Tfo",
-		  "IsUniqueToMap": true
+          "IsUniqueToMap": true
         }
       ],
       "MapEntityExclusions": []
@@ -240,7 +223,7 @@
       "MapEntities": [
         {
           "Pattern": "Bluegills_Ground_Boss",
-		  "IsUniqueToMap": true
+          "IsUniqueToMap": true
         }
       ],
       "MapEntityExclusions": []
@@ -250,7 +233,7 @@
       "MapEntities": [
         {
           "Pattern": "Msn_Edren_Queue_Ground_Gorn_Lt_Tos_Range_Rock",
-		  "IsUniqueToMap": true
+          "IsUniqueToMap": true
         }
       ],
       "MapEntityExclusions": []
@@ -260,7 +243,7 @@
       "MapEntities": [
         {
           "Pattern": "Msn_Ground_Capt_Mirror_Janeway_Boss_Unkillable",
-		  "IsUniqueToMap": true
+          "IsUniqueToMap": true
         }
       ],
       "MapEntityExclusions": []
@@ -270,7 +253,7 @@
       "MapEntities": [
         {
           "Pattern": "Mission_Event_Tholian_Invasion_Ext_Boss",
-		  "IsUniqueToMap": true
+          "IsUniqueToMap": true
         }
       ],
       "MapEntityExclusions": []
@@ -280,7 +263,7 @@
       "MapEntities": [
         {
           "Pattern": "Space_Borg_Dreadnought_Wolf359",
-		  "IsUniqueToMap": true
+          "IsUniqueToMap": true
         }
       ],
       "MapEntityExclusions": []
@@ -290,16 +273,19 @@
       "MapEntities": [
         {
           "Pattern": "Ground_Renegades_Lt_Gorn_Nimbus_Sniper",
-		  "IsUniqueToMap": true
+          "IsUniqueToMap": true
         },
         {
-          "Pattern": "Ground_Gorn"
+          "Pattern": "Ground_Gorn",
+          "IsUniqueToMap": false
         },
         {
-          "Pattern": "Beast_Dewan_Arthropod"
+          "Pattern": "Beast_Dewan_Arthropod",
+          "IsUniqueToMap": false
         },
         {
-          "Pattern": "Nimbus"
+          "Pattern": "Nimbus",
+          "IsUniqueToMap": false
         }
       ],
       "MapEntityExclusions": []
@@ -308,7 +294,8 @@
       "Name": "Nukara",
       "MapEntities": [
         {
-          "Pattern": "Ground_Tholian"
+          "Pattern": "Ground_Tholian",
+          "IsUniqueToMap": false
         }
       ],
       "MapEntityExclusions": []
@@ -317,12 +304,14 @@
       "Name": "Defend Rh'Ihho Station",
       "MapEntities": [
         {
-          "Pattern": "Ground_Elachi"
+          "Pattern": "Ground_Elachi",
+          "IsUniqueToMap": false
         }
       ],
       "MapEntityExclusions": [
         {
-          "Pattern": "Ground_Elachi_Ensign_Friendly_Rift"
+          "Pattern": "Ground_Elachi_Ensign_Friendly_Rift",
+          "IsUniqueToMap": false
         }
       ]
     },
@@ -330,98 +319,31 @@
       "Name": "Borg Battle Royale",
       "MapEntities": [
         {
-          "Pattern": "Range_Mirror"
-        }
-      ],
-      "MapEntityExclusions": []
-    },
-    {
-      "Name": "Gon'Cra System (Tzenkethi Battlezone)",
-      "MapEntities": [
-        {
-          "Pattern": "Space_Tzenkethi_Dreadnought",
-		  "IsUniqueToMap": true
-        },
-		{
-          "Pattern": "Space_Tzenkethi_Battleship",
-        },
-		{
-          "Pattern": "Space_Tzenkethi_Frigate",
-        },
-		{
-          "Pattern": "Space_Tzenkethi_Cruiser_Var2",
-        },
-		{
-          "Pattern": "Space_Tzenkethi_Cruiser_Var1",
-        },
-		{
-          "Pattern": "Space_Tzenkethi_Frigate_Carrier",
-        },
-		{
-          "Pattern": "Space_Tzenkethi_Frigate_Control_Carrier",
-        }
-      ],
-      "MapEntityExclusions": []
-    },
-	{
-      "Name": "Red Alert: Borg",
-      "MapEntities": [
-        {
-          "Pattern": "Space_Borg_Dreadnought_Dse",
-		  "IsUniqueToMap": true
-        },
-		{
-          "Pattern": "Mission_Space_Borg_Battleship_2_Of_10",
-		  "IsUniqueToMap": true
-        }
-      ],
-      "MapEntityExclusions": []
-    },
-	{
-      "Name": "Red Alert: Tholian",
-      "MapEntities": [
-        {
-          "Pattern": "Space_Tholian_Battleship",
-        },
-		{
-          "Pattern": "Space_Tholian_Cruiser",
-        }
-      ],
-      "MapEntityExclusions": []
-    },
-	{
-      "Name": "Red Alert: Na'kuhl",
-      "MapEntities": [
-        {
-          "Pattern": "Space_Nakuhl_Cruiser",
-        },
-		{
-          "Pattern": "Space_Nakuhl_Dreadnought",
-        },
-		{
-          "Pattern": "Space_Nakuhl_Frigate",
-        },
-		{
-          "Pattern": "Space_Nakuhl_Constrictor_Node_Dreadnaught",
-		  "IsUniqueToMap": true
-        }
-      ],
-      "MapEntityExclusions": []
-    },
-	{
-      "Name": "DSE: Assimilate the Barbarians (Borg)",
-      "MapEntities": [
-        {
-          "Pattern": "Space_Borg_Battleship",
-        },
-		{
-          "Pattern": "Space_Borg_Frigate",
-        },
-		{
-          "Pattern": "Space_Borg_Cruiser",
+          "Pattern": "Range_Mirror",
+          "IsUniqueToMap": false
         }
       ],
       "MapEntityExclusions": []
     }
-  ]
+  ],
+  "GenericGroundMap": {
+    "Name": "Generic Ground",
+    "MapEntities": [
+      {
+        "Pattern": "Ground_",
+        "IsUniqueToMap": false
+      }
+    ],
+    "MapEntityExclusions": []
+  },
+  "GenericSpaceMap": {
+    "Name": "Generic Space",
+    "MapEntities": [
+      {
+        "Pattern": "Space_",
+        "IsUniqueToMap": false
+      }
+    ],
+    "MapEntityExclusions": []
+  }
 }
