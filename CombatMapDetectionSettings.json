@@ -1,5 +1,5 @@
 {
-  "JsonVersion": "1.4.0",
+  "JsonVersion": "1.5",
   "JsonVersionDescription": "",
   "Comments": [
     "JsonVersion: Uses Semantic Versioning 2.0.0 (Major,Minor,Patch)",
@@ -22,8 +22,9 @@
   ],
   "CombatMapEntityList": [
     {
-      "Name": "Event: Infected Space",
       "IsEnabled": true,
+      "MaxPlayers": 5,
+      "MinPlayers": 5,
       "MapEntities": [
         {
           "IsEnabled": true,
@@ -31,11 +32,13 @@
           "IsUniqueToMap": true
         }
       ],
-      "MapEntityExclusions": []
+      "MapEntityExclusions": [],
+      "Name": "Event: Infected Space"
     },
     {
-      "Name": "Event: Azure Nebula Rescue",
       "IsEnabled": true,
+      "MaxPlayers": 5,
+      "MinPlayers": 5,
       "MapEntities": [
         {
           "IsEnabled": true,
@@ -43,11 +46,13 @@
           "IsUniqueToMap": true
         }
       ],
-      "MapEntityExclusions": []
+      "MapEntityExclusions": [],
+      "Name": "Event: Azure Nebula Rescue"
     },
     {
-      "Name": "Event: Battle At The Binary Stars",
       "IsEnabled": true,
+      "MaxPlayers": 5,
+      "MinPlayers": 5,
       "MapEntities": [
         {
           "IsEnabled": true,
@@ -55,11 +60,13 @@
           "IsUniqueToMap": true
         }
       ],
-      "MapEntityExclusions": []
+      "MapEntityExclusions": [],
+      "Name": "Event: Battle At The Binary Stars"
     },
     {
-      "Name": "Event: Battle At Procyon V",
       "IsEnabled": true,
+      "MaxPlayers": 5,
+      "MinPlayers": 5,
       "MapEntities": [
         {
           "IsEnabled": true,
@@ -67,11 +74,13 @@
           "IsUniqueToMap": true
         }
       ],
-      "MapEntityExclusions": []
+      "MapEntityExclusions": [],
+      "Name": "Event: Battle At Procyon V"
     },
     {
-      "Name": "Event: Borg Disconnected",
       "IsEnabled": true,
+      "MaxPlayers": 5,
+      "MinPlayers": 5,
       "MapEntities": [
         {
           "IsEnabled": true,
@@ -79,23 +88,72 @@
           "IsUniqueToMap": true
         }
       ],
-      "MapEntityExclusions": []
+      "MapEntityExclusions": [],
+      "Name": "Event: Borg Disconnected"
     },
     {
-      "Name": "Event: Counterpoint",
       "IsEnabled": true,
+      "MaxPlayers": 5,
+      "MinPlayers": 5,
       "MapEntities": [
         {
           "IsEnabled": true,
           "Pattern": "Mission_Starbase_Mirror_Ds9_Mu_Queue",
+          "IsUniqueToMap": false
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "Empok Nor",
           "IsUniqueToMap": true
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "Msn_Mu_Bz_Badlands_System_Plasma_Controller_Boss",
+          "IsUniqueToMap": false
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "Space_Federation_Odyssey_Saucer_Pet_Mirror",
+          "IsUniqueToMap": false
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "Terran Frigate",
+          "IsUniqueToMap": false
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "Terran Odyssey Dreadnought",
+          "IsUniqueToMap": false
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "Space_Federation_Frigate_Mirror",
+          "IsUniqueToMap": false
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "Space_Federation_Frigate_Mirror_2",
+          "IsUniqueToMap": false
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "Space_Federation_Dreadnought_Odessey_Mirror",
+          "IsUniqueToMap": false
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "Space_Federation_Odyssey_Saucer_Pet_Mirror",
+          "IsUniqueToMap": false
         }
       ],
-      "MapEntityExclusions": []
+      "MapEntityExclusions": [],
+      "Name": "Event: Counterpoint"
     },
     {
-      "Name": "Event: Crystalline Entity",
       "IsEnabled": true,
+      "MaxPlayers": 5,
+      "MinPlayers": 5,
       "MapEntities": [
         {
           "IsEnabled": true,
@@ -103,11 +161,13 @@
           "IsUniqueToMap": true
         }
       ],
-      "MapEntityExclusions": []
+      "MapEntityExclusions": [],
+      "Name": "Event: Crystalline Entity"
     },
     {
-      "Name": "Event: Gateway To Grethor",
       "IsEnabled": true,
+      "MaxPlayers": 5,
+      "MinPlayers": 5,
       "MapEntities": [
         {
           "IsEnabled": true,
@@ -115,11 +175,13 @@
           "IsUniqueToMap": true
         }
       ],
-      "MapEntityExclusions": []
+      "MapEntityExclusions": [],
+      "Name": "Event: Gateway To Grethor"
     },
     {
-      "Name": "Event: Herald Sphere",
       "IsEnabled": true,
+      "MaxPlayers": 5,
+      "MinPlayers": 5,
       "MapEntities": [
         {
           "IsEnabled": true,
@@ -127,11 +189,13 @@
           "IsUniqueToMap": true
         }
       ],
-      "MapEntityExclusions": []
+      "MapEntityExclusions": [],
+      "Name": "Event: Herald Sphere"
     },
     {
-      "Name": "Event: Operation Riposte",
       "IsEnabled": true,
+      "MaxPlayers": 5,
+      "MinPlayers": 5,
       "MapEntities": [
         {
           "IsEnabled": true,
@@ -139,11 +203,13 @@
           "IsUniqueToMap": true
         }
       ],
-      "MapEntityExclusions": []
+      "MapEntityExclusions": [],
+      "Name": "Event: Operation Riposte"
     },
     {
-      "Name": "Event: Cure Found",
       "IsEnabled": true,
+      "MaxPlayers": 5,
+      "MinPlayers": 5,
       "MapEntities": [
         {
           "IsEnabled": true,
@@ -151,11 +217,13 @@
           "IsUniqueToMap": true
         }
       ],
-      "MapEntityExclusions": []
+      "MapEntityExclusions": [],
+      "Name": "Event: Cure Found"
     },
     {
-      "Name": "Event: Days Of Doom",
       "IsEnabled": true,
+      "MaxPlayers": 5,
+      "MinPlayers": 5,
       "MapEntities": [
         {
           "IsEnabled": true,
@@ -163,11 +231,13 @@
           "IsUniqueToMap": true
         }
       ],
-      "MapEntityExclusions": []
+      "MapEntityExclusions": [],
+      "Name": "Event: Days Of Doom"
     },
     {
-      "Name": "Event: Dranuur Gauntlet",
       "IsEnabled": true,
+      "MaxPlayers": 5,
+      "MinPlayers": 5,
       "MapEntities": [
         {
           "IsEnabled": true,
@@ -175,11 +245,13 @@
           "IsUniqueToMap": true
         }
       ],
-      "MapEntityExclusions": []
+      "MapEntityExclusions": [],
+      "Name": "Event: Dranuur Gauntlet"
     },
     {
-      "Name": "Event: Khitomer Space",
       "IsEnabled": true,
+      "MaxPlayers": 5,
+      "MinPlayers": 5,
       "MapEntities": [
         {
           "IsEnabled": true,
@@ -187,11 +259,13 @@
           "IsUniqueToMap": true
         }
       ],
-      "MapEntityExclusions": []
+      "MapEntityExclusions": [],
+      "Name": "Event: Khitomer Space"
     },
     {
-      "Name": "Event: Storming The Spire",
       "IsEnabled": true,
+      "MaxPlayers": 5,
+      "MinPlayers": 5,
       "MapEntities": [
         {
           "IsEnabled": true,
@@ -199,11 +273,13 @@
           "IsUniqueToMap": true
         }
       ],
-      "MapEntityExclusions": []
+      "MapEntityExclusions": [],
+      "Name": "Event: Storming The Spire"
     },
     {
-      "Name": "Event: Swarm",
       "IsEnabled": true,
+      "MaxPlayers": 5,
+      "MinPlayers": 5,
       "MapEntities": [
         {
           "IsEnabled": true,
@@ -211,11 +287,13 @@
           "IsUniqueToMap": true
         }
       ],
-      "MapEntityExclusions": []
+      "MapEntityExclusions": [],
+      "Name": "Event: Swarm"
     },
     {
-      "Name": "Event: To Hell With Honor",
       "IsEnabled": true,
+      "MaxPlayers": 5,
+      "MinPlayers": 5,
       "MapEntities": [
         {
           "IsEnabled": true,
@@ -223,11 +301,13 @@
           "IsUniqueToMap": true
         }
       ],
-      "MapEntityExclusions": []
+      "MapEntityExclusions": [],
+      "Name": "Event: To Hell With Honor"
     },
     {
-      "Name": "Event: Gravity Kills",
       "IsEnabled": true,
+      "MaxPlayers": 5,
+      "MinPlayers": 5,
       "MapEntities": [
         {
           "IsEnabled": true,
@@ -240,11 +320,13 @@
           "IsUniqueToMap": true
         }
       ],
-      "MapEntityExclusions": []
+      "MapEntityExclusions": [],
+      "Name": "Event: Gravity Kills"
     },
     {
-      "Name": "Event: Hive Space",
       "IsEnabled": true,
+      "MaxPlayers": 5,
+      "MinPlayers": 5,
       "MapEntities": [
         {
           "IsEnabled": true,
@@ -252,11 +334,13 @@
           "IsUniqueToMap": true
         }
       ],
-      "MapEntityExclusions": []
+      "MapEntityExclusions": [],
+      "Name": "Event: Hive Space"
     },
     {
-      "Name": "Event: Operation Wolf",
       "IsEnabled": true,
+      "MaxPlayers": 5,
+      "MinPlayers": 5,
       "MapEntities": [
         {
           "IsEnabled": true,
@@ -264,11 +348,13 @@
           "IsUniqueToMap": true
         }
       ],
-      "MapEntityExclusions": []
+      "MapEntityExclusions": [],
+      "Name": "Event: Operation Wolf"
     },
     {
-      "Name": "Event: Bug Hunt",
       "IsEnabled": true,
+      "MaxPlayers": 5,
+      "MinPlayers": 5,
       "MapEntities": [
         {
           "IsEnabled": true,
@@ -276,11 +362,13 @@
           "IsUniqueToMap": true
         }
       ],
-      "MapEntityExclusions": []
+      "MapEntityExclusions": [],
+      "Name": "Event: Bug Hunt"
     },
     {
-      "Name": "Event: Miner Instabilities",
       "IsEnabled": true,
+      "MaxPlayers": 5,
+      "MinPlayers": 5,
       "MapEntities": [
         {
           "IsEnabled": true,
@@ -288,11 +376,13 @@
           "IsUniqueToMap": true
         }
       ],
-      "MapEntityExclusions": []
+      "MapEntityExclusions": [],
+      "Name": "Event: Miner Instabilities"
     },
     {
-      "Name": "Jupiter Station Showdown",
       "IsEnabled": true,
+      "MaxPlayers": 5,
+      "MinPlayers": 5,
       "MapEntities": [
         {
           "IsEnabled": true,
@@ -300,11 +390,13 @@
           "IsUniqueToMap": true
         }
       ],
-      "MapEntityExclusions": []
+      "MapEntityExclusions": [],
+      "Name": "Event: Jupiter Station Showdown"
     },
     {
-      "Name": "Event: Nukara Prime: Transdimensional Tactics",
       "IsEnabled": true,
+      "MaxPlayers": 5,
+      "MinPlayers": 5,
       "MapEntities": [
         {
           "IsEnabled": true,
@@ -312,11 +404,13 @@
           "IsUniqueToMap": true
         }
       ],
-      "MapEntityExclusions": []
+      "MapEntityExclusions": [],
+      "Name": "Event: Nukara Prime: Transdimensional Tactics"
     },
     {
-      "Name": "Event: Battle of Wolf 359",
       "IsEnabled": true,
+      "MaxPlayers": 5,
+      "MinPlayers": 5,
       "MapEntities": [
         {
           "IsEnabled": true,
@@ -324,11 +418,13 @@
           "IsUniqueToMap": true
         }
       ],
-      "MapEntityExclusions": []
+      "MapEntityExclusions": [],
+      "Name": "Event: Battle of Wolf 359"
     },
     {
-      "Name": "Map: Nimbus",
       "IsEnabled": true,
+      "MaxPlayers": 0,
+      "MinPlayers": 1,
       "MapEntities": [
         {
           "IsEnabled": true,
@@ -344,13 +440,50 @@
           "IsEnabled": true,
           "Pattern": "Beast_Dewan_Arthropod",
           "IsUniqueToMap": false
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "Adult Dewan Arthropod",
+          "IsUniqueToMap": false
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "Adult Sand Scorpion",
+          "IsUniqueToMap": false
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "Dewan Arthropod",
+          "IsUniqueToMap": false
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "Giant Scorpion",
+          "IsUniqueToMap": false
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "Mature Sand Scorpion",
+          "IsUniqueToMap": false
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "Sand Scorpion",
+          "IsUniqueToMap": false
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "Young Dewan Arthropod",
+          "IsUniqueToMap": false
         }
       ],
-      "MapEntityExclusions": []
+      "MapEntityExclusions": [],
+      "Name": "Map: Nimbus"
     },
     {
-      "Name": "Map: Nukara Prime",
       "IsEnabled": true,
+      "MaxPlayers": 0,
+      "MinPlayers": 1,
       "MapEntities": [
         {
           "IsEnabled": true,
@@ -366,13 +499,55 @@
           "IsEnabled": true,
           "Pattern": "Ground_Tholian_Ensign",
           "IsUniqueToMap": false
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "KDF Officer",
+          "IsUniqueToMap": false
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "Starfleet Officer",
+          "IsUniqueToMap": false
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "Tholian Drone Assistant",
+          "IsUniqueToMap": false
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "Trapped Officer",
+          "IsUniqueToMap": false
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "Worker",
+          "IsUniqueToMap": false
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "Ground_Tholian_Ensign_2",
+          "IsUniqueToMap": false
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "Ground_Tholian_Ensign_3",
+          "IsUniqueToMap": false
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "Ground_Tholian_Ensign_Noreward",
+          "IsUniqueToMap": false
         }
       ],
-      "MapEntityExclusions": []
+      "MapEntityExclusions": [],
+      "Name": "Map: Nukara Prime"
     },
     {
-      "Name": "Event: Defend Rh'Ihho Station",
       "IsEnabled": true,
+      "MaxPlayers": 5,
+      "MinPlayers": 5,
       "MapEntities": [
         {
           "IsEnabled": true,
@@ -386,11 +561,13 @@
           "Pattern": "Ground_Elachi_Ensign_Friendly_Rift",
           "IsUniqueToMap": false
         }
-      ]
+      ],
+      "Name": "Event: Defend Rh'Ihho Station"
     },
     {
-      "Name": "Event: Borg Battle Royale",
       "IsEnabled": true,
+      "MaxPlayers": 5,
+      "MinPlayers": 5,
       "MapEntities": [
         {
           "IsEnabled": true,
@@ -398,11 +575,13 @@
           "IsUniqueToMap": false
         }
       ],
-      "MapEntityExclusions": []
+      "MapEntityExclusions": [],
+      "Name": "Event: Borg Battle Royale"
     },
     {
-      "Name": "Red Alert: Borg",
-      "IsEnabled": false,
+      "IsEnabled": true,
+      "MaxPlayers": 5,
+      "MinPlayers": 5,
       "MapEntities": [
         {
           "IsEnabled": true,
@@ -410,11 +589,13 @@
           "IsUniqueToMap": true
         }
       ],
-      "MapEntityExclusions": []
+      "MapEntityExclusions": [],
+      "Name": "Red Alert: Borg"
     },
     {
-      "Name": "Red Alert: Tholian",
-      "IsEnabled": false,
+      "IsEnabled": true,
+      "MaxPlayers": 5,
+      "MinPlayers": 5,
       "MapEntities": [
         {
           "IsEnabled": true,
@@ -422,11 +603,13 @@
           "IsUniqueToMap": true
         }
       ],
-      "MapEntityExclusions": []
+      "MapEntityExclusions": [],
+      "Name": "Red Alert: Tholian"
     },
     {
-      "Name": "Red Alert: Na'kuhl",
-      "IsEnabled": false,
+      "IsEnabled": true,
+      "MaxPlayers": 5,
+      "MinPlayers": 5,
       "MapEntities": [
         {
           "IsEnabled": true,
@@ -434,11 +617,13 @@
           "IsUniqueToMap": true
         }
       ],
-      "MapEntityExclusions": []
+      "MapEntityExclusions": [],
+      "Name": "Red Alert: Na'kuhl"
     },
     {
-      "Name": "Red Alert: Elachi",
-      "IsEnabled": false,
+      "IsEnabled": true,
+      "MaxPlayers": 5,
+      "MinPlayers": 5,
       "MapEntities": [
         {
           "IsEnabled": true,
@@ -446,11 +631,13 @@
           "IsUniqueToMap": true
         }
       ],
-      "MapEntityExclusions": []
+      "MapEntityExclusions": [],
+      "Name": "Red Alert: Elachi"
     },
     {
-      "Name": "Red Alert: Tzenkethi",
-      "IsEnabled": false,
+      "IsEnabled": true,
+      "MaxPlayers": 5,
+      "MinPlayers": 5,
       "MapEntities": [
         {
           "IsEnabled": true,
@@ -458,23 +645,62 @@
           "IsUniqueToMap": true
         }
       ],
-      "MapEntityExclusions": []
+      "MapEntityExclusions": [],
+      "Name": "Red Alert: Tzenkethi"
     },
     {
-      "Name": "Map: Gon'cra System: Tzenkethi Battlezone",
-      "IsEnabled": false,
+      "IsEnabled": true,
+      "MaxPlayers": 0,
+      "MinPlayers": 1,
       "MapEntities": [
         {
           "IsEnabled": true,
           "Pattern": "Kan'Keli",
           "IsUniqueToMap": true
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "Tak'Terak",
+          "IsUniqueToMap": true
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "Kan'Keli",
+          "IsUniqueToMap": true
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "Broln’ta Cruiser",
+          "IsUniqueToMap": false
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "Rhas’bej Battleship",
+          "IsUniqueToMap": false
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "Shuk-din Frigate",
+          "IsUniqueToMap": false
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "Tzenkethi Shield Repair Unit",
+          "IsUniqueToMap": false
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "Tzen’tar Dreadnought",
+          "IsUniqueToMap": false
         }
       ],
-      "MapEntityExclusions": []
+      "MapEntityExclusions": [],
+      "Name": "Map: Gon'cra System: Tzenkethi Battlezone"
     },
     {
-      "Name": "Map: Voth Battlezone",
       "IsEnabled": true,
+      "MaxPlayers": 0,
+      "MinPlayers": 1,
       "MapEntities": [
         {
           "IsEnabled": true,
@@ -485,14 +711,308 @@
           "IsEnabled": true,
           "Pattern": "Starbase_Player_Fed_T1",
           "IsUniqueToMap": false
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "Voth Frigate",
+          "IsUniqueToMap": false
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "Voth Palisade Frigate",
+          "IsUniqueToMap": false
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "Aceton Drone",
+          "IsUniqueToMap": false
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "Voth Bastion Cruiser",
+          "IsUniqueToMap": false
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "Voth Bulwark Battleship",
+          "IsUniqueToMap": false
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "Voth Citadel Dreadnought",
+          "IsUniqueToMap": false
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "Voth Ward Repair Ship",
+          "IsUniqueToMap": false
         }
       ],
-      "MapEntityExclusions": []
+      "MapEntityExclusions": [],
+      "Name": "Map: Voth Battlezone"
+    },
+    {
+      "IsEnabled": true,
+      "MaxPlayers": 0,
+      "MinPlayers": 1,
+      "MapEntities": [
+        {
+          "IsEnabled": true,
+          "Pattern": "Dactylus Bioship",
+          "IsUniqueToMap": false
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "Dromias Bio-Cruiser",
+          "IsUniqueToMap": false
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "Nicor Bioship",
+          "IsUniqueToMap": false
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "Heavy Bioplasmic Torpedo",
+          "IsUniqueToMap": false
+        }
+      ],
+      "MapEntityExclusions": [],
+      "Name": "Map: Undine Battlezone"
+    },
+    {
+      "IsEnabled": true,
+      "MaxPlayers": 0,
+      "MinPlayers": 1,
+      "MapEntities": [
+        {
+          "IsEnabled": true,
+          "Pattern": "Msn_Mu_Bz_Badlands_System_Plasma_Controller",
+          "IsUniqueToMap": false
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "Stationmod_Battlecruiser_Com_Eng_Platform",
+          "IsUniqueToMap": false
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "Fleet Support Platform",
+          "IsUniqueToMap": false
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "Plasma Control Station",
+          "IsUniqueToMap": false
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "Terran Command Battleship",
+          "IsUniqueToMap": false
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "Terran Cruiser",
+          "IsUniqueToMap": false
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "Terran Frigate",
+          "IsUniqueToMap": false
+        }
+      ],
+      "MapEntityExclusions": [],
+      "Name": "Map: Badlands"
+    },
+    {
+      "IsEnabled": true,
+      "MaxPlayers": 5,
+      "MinPlayers": 5,
+      "MapEntities": [
+        {
+          "IsEnabled": true,
+          "Pattern": "Space_Holo_Projector_Jupiter_Tfo",
+          "IsUniqueToMap": true
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "Stationmod_Battlecruiser_Com_Sci_Tachyon_Platform",
+          "IsUniqueToMap": false
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "Data Thief",
+          "IsUniqueToMap": true
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "Jupiter Holo-Projector",
+          "IsUniqueToMap": false
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "Phaser Defense Platform",
+          "IsUniqueToMap": false
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "Photonic Turret",
+          "IsUniqueToMap": false
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "Tachyon Pulse Platform",
+          "IsUniqueToMap": false
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "Terran Command Battleship",
+          "IsUniqueToMap": false
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "Terran Cruiser",
+          "IsUniqueToMap": false
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "Terran Escort",
+          "IsUniqueToMap": false
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "Terran Frigate",
+          "IsUniqueToMap": false
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "Terran Hacker Ships",
+          "IsUniqueToMap": true
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "Terran Nebula Class Science Vessel",
+          "IsUniqueToMap": false
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "Terran Science Vessel",
+          "IsUniqueToMap": false
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "Terran Shieldship",
+          "IsUniqueToMap": false
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "U.S.S. Crypteia",
+          "IsUniqueToMap": true
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "U.S.S. Voyager",
+          "IsUniqueToMap": false
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "C[1343 Space_Federation_Frigate_Mirror]",
+          "IsUniqueToMap": false
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "C[1428 Space_Federation_Cruiser_Mirror]",
+          "IsUniqueToMap": false
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "C[1620 Space_Federation_Frigate_Mirror]",
+          "IsUniqueToMap": false
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "C[1657 Space_Federation_Science_Mirror_2]",
+          "IsUniqueToMap": false
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "Elite Defense Satellite",
+          "IsUniqueToMap": false
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "Federation Armitage Class Strike Wing Escort",
+          "IsUniqueToMap": false
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "Federation Command Cruiser",
+          "IsUniqueToMap": false
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "Federation Frigate",
+          "IsUniqueToMap": false
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "Federation Science Vessel",
+          "IsUniqueToMap": false
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "Fighter Escort",
+          "IsUniqueToMap": false
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "I.K.S. Vorcha",
+          "IsUniqueToMap": false
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "I.S.S. Enterprise",
+          "IsUniqueToMap": false
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "I.S.S. Reskava",
+          "IsUniqueToMap": false
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "Nebula Class Science Vessel",
+          "IsUniqueToMap": false
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "Terran Da Vinci Escort",
+          "IsUniqueToMap": false
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "To'Duj Fighter Squadron",
+          "IsUniqueToMap": false
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "Tricobalt Device",
+          "IsUniqueToMap": false
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "U.S.S. Defiant",
+          "IsUniqueToMap": false
+        }
+      ],
+      "MapEntityExclusions": [],
+      "Name": "Event: Iuppiter Iratus"
     }
   ],
   "GenericGroundMap": {
-    "Name": "Generic Ground",
     "IsEnabled": true,
+    "MaxPlayers": 5,
+    "MinPlayers": 5,
     "MapEntities": [
       {
         "IsEnabled": true,
@@ -500,11 +1020,13 @@
         "IsUniqueToMap": false
       }
     ],
-    "MapEntityExclusions": []
+    "MapEntityExclusions": [],
+    "Name": "Generic Ground"
   },
   "GenericSpaceMap": {
-    "Name": "Generic Space",
     "IsEnabled": true,
+    "MaxPlayers": 5,
+    "MinPlayers": 5,
     "MapEntities": [
       {
         "IsEnabled": true,
@@ -512,6 +1034,7 @@
         "IsUniqueToMap": false
       }
     ],
-    "MapEntityExclusions": []
+    "MapEntityExclusions": [],
+    "Name": "Generic Space"
   }
 }
