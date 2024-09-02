@@ -7,6 +7,7 @@
 * 2024-06-29 CombatMapDetectionSettings.json(1.3.2): Add a few more maps for Red Alerts and a Borg Deep Space Encounter.
 * 2024-07-02 CombatMapDetectionSettings.json(1.3.3): Removed the map for Goncra. Moved some elements around.
 * 2024-08-13 CombatMapDetectionSettings.json(1.3.4): Updated the Nimbus map. It was incorrectly being detected for different space maps.
+* 2024-09-02 CombatMapDetectionSettings.json(1.3.5): A now have map max and min player fields. Made some other map specific changes.
 
 ## Overview
 This is a home for [STOCombatAnalyzer](https://github.com/zxeltor/STOCombatAnalyzer) settings files.
