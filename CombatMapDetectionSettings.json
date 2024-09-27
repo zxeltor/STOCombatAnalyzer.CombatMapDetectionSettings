@@ -1,5 +1,5 @@
 {
-  "JsonVersion": "1.5",
+  "JsonVersion": "1.5.1",
   "JsonVersionDescription": "",
   "Comments": [
     "JsonVersion: Uses Semantic Versioning 2.0.0 (Major,Minor,Patch)",
@@ -98,53 +98,8 @@
       "MapEntities": [
         {
           "IsEnabled": true,
-          "Pattern": "Mission_Starbase_Mirror_Ds9_Mu_Queue",
-          "IsUniqueToMap": false
-        },
-        {
-          "IsEnabled": true,
           "Pattern": "Empok Nor",
           "IsUniqueToMap": true
-        },
-        {
-          "IsEnabled": true,
-          "Pattern": "Msn_Mu_Bz_Badlands_System_Plasma_Controller_Boss",
-          "IsUniqueToMap": false
-        },
-        {
-          "IsEnabled": true,
-          "Pattern": "Space_Federation_Odyssey_Saucer_Pet_Mirror",
-          "IsUniqueToMap": false
-        },
-        {
-          "IsEnabled": true,
-          "Pattern": "Terran Frigate",
-          "IsUniqueToMap": false
-        },
-        {
-          "IsEnabled": true,
-          "Pattern": "Terran Odyssey Dreadnought",
-          "IsUniqueToMap": false
-        },
-        {
-          "IsEnabled": true,
-          "Pattern": "Space_Federation_Frigate_Mirror",
-          "IsUniqueToMap": false
-        },
-        {
-          "IsEnabled": true,
-          "Pattern": "Space_Federation_Frigate_Mirror_2",
-          "IsUniqueToMap": false
-        },
-        {
-          "IsEnabled": true,
-          "Pattern": "Space_Federation_Dreadnought_Odessey_Mirror",
-          "IsUniqueToMap": false
-        },
-        {
-          "IsEnabled": true,
-          "Pattern": "Space_Federation_Odyssey_Saucer_Pet_Mirror",
-          "IsUniqueToMap": false
         }
       ],
       "MapEntityExclusions": [],
@@ -213,7 +168,7 @@
       "MapEntities": [
         {
           "IsEnabled": true,
-          "Pattern": "Space_Borg_Dreadnought_R02",
+          "Pattern": "_Borg_Dreadnought_R02",
           "IsUniqueToMap": true
         }
       ],
@@ -415,6 +370,11 @@
         {
           "IsEnabled": true,
           "Pattern": "Space_Borg_Dreadnought_Wolf359",
+          "IsUniqueToMap": true
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "_Wolf359",
           "IsUniqueToMap": true
         }
       ],
@@ -836,177 +796,93 @@
         },
         {
           "IsEnabled": true,
-          "Pattern": "Stationmod_Battlecruiser_Com_Sci_Tachyon_Platform",
-          "IsUniqueToMap": false
-        },
-        {
-          "IsEnabled": true,
           "Pattern": "Data Thief",
           "IsUniqueToMap": true
         },
         {
           "IsEnabled": true,
           "Pattern": "Jupiter Holo-Projector",
-          "IsUniqueToMap": false
-        },
-        {
-          "IsEnabled": true,
-          "Pattern": "Phaser Defense Platform",
-          "IsUniqueToMap": false
-        },
-        {
-          "IsEnabled": true,
-          "Pattern": "Photonic Turret",
-          "IsUniqueToMap": false
-        },
-        {
-          "IsEnabled": true,
-          "Pattern": "Tachyon Pulse Platform",
-          "IsUniqueToMap": false
-        },
-        {
-          "IsEnabled": true,
-          "Pattern": "Terran Command Battleship",
-          "IsUniqueToMap": false
-        },
-        {
-          "IsEnabled": true,
-          "Pattern": "Terran Cruiser",
-          "IsUniqueToMap": false
-        },
-        {
-          "IsEnabled": true,
-          "Pattern": "Terran Escort",
-          "IsUniqueToMap": false
-        },
-        {
-          "IsEnabled": true,
-          "Pattern": "Terran Frigate",
-          "IsUniqueToMap": false
+          "IsUniqueToMap": true
         },
         {
           "IsEnabled": true,
           "Pattern": "Terran Hacker Ships",
           "IsUniqueToMap": true
-        },
-        {
-          "IsEnabled": true,
-          "Pattern": "Terran Nebula Class Science Vessel",
-          "IsUniqueToMap": false
-        },
-        {
-          "IsEnabled": true,
-          "Pattern": "Terran Science Vessel",
-          "IsUniqueToMap": false
-        },
-        {
-          "IsEnabled": true,
-          "Pattern": "Terran Shieldship",
-          "IsUniqueToMap": false
-        },
-        {
-          "IsEnabled": true,
-          "Pattern": "U.S.S. Crypteia",
-          "IsUniqueToMap": true
-        },
-        {
-          "IsEnabled": true,
-          "Pattern": "U.S.S. Voyager",
-          "IsUniqueToMap": false
-        },
-        {
-          "IsEnabled": true,
-          "Pattern": "C[1343 Space_Federation_Frigate_Mirror]",
-          "IsUniqueToMap": false
-        },
-        {
-          "IsEnabled": true,
-          "Pattern": "C[1428 Space_Federation_Cruiser_Mirror]",
-          "IsUniqueToMap": false
-        },
-        {
-          "IsEnabled": true,
-          "Pattern": "C[1620 Space_Federation_Frigate_Mirror]",
-          "IsUniqueToMap": false
-        },
-        {
-          "IsEnabled": true,
-          "Pattern": "C[1657 Space_Federation_Science_Mirror_2]",
-          "IsUniqueToMap": false
-        },
-        {
-          "IsEnabled": true,
-          "Pattern": "Elite Defense Satellite",
-          "IsUniqueToMap": false
-        },
-        {
-          "IsEnabled": true,
-          "Pattern": "Federation Armitage Class Strike Wing Escort",
-          "IsUniqueToMap": false
-        },
-        {
-          "IsEnabled": true,
-          "Pattern": "Federation Command Cruiser",
-          "IsUniqueToMap": false
-        },
-        {
-          "IsEnabled": true,
-          "Pattern": "Federation Frigate",
-          "IsUniqueToMap": false
-        },
-        {
-          "IsEnabled": true,
-          "Pattern": "Federation Science Vessel",
-          "IsUniqueToMap": false
-        },
-        {
-          "IsEnabled": true,
-          "Pattern": "Fighter Escort",
-          "IsUniqueToMap": false
-        },
-        {
-          "IsEnabled": true,
-          "Pattern": "I.K.S. Vorcha",
-          "IsUniqueToMap": false
-        },
-        {
-          "IsEnabled": true,
-          "Pattern": "I.S.S. Enterprise",
-          "IsUniqueToMap": false
-        },
-        {
-          "IsEnabled": true,
-          "Pattern": "I.S.S. Reskava",
-          "IsUniqueToMap": false
-        },
-        {
-          "IsEnabled": true,
-          "Pattern": "Nebula Class Science Vessel",
-          "IsUniqueToMap": false
-        },
-        {
-          "IsEnabled": true,
-          "Pattern": "Terran Da Vinci Escort",
-          "IsUniqueToMap": false
-        },
-        {
-          "IsEnabled": true,
-          "Pattern": "To'Duj Fighter Squadron",
-          "IsUniqueToMap": false
-        },
-        {
-          "IsEnabled": true,
-          "Pattern": "Tricobalt Device",
-          "IsUniqueToMap": false
-        },
-        {
-          "IsEnabled": true,
-          "Pattern": "U.S.S. Defiant",
-          "IsUniqueToMap": false
         }
       ],
       "MapEntityExclusions": [],
       "Name": "Event: Iuppiter Iratus"
+    },
+    {
+      "IsEnabled": true,
+      "MaxPlayers": 1,
+      "MinPlayers": 1,
+      "MapEntities": [
+        {
+          "IsEnabled": true,
+          "Pattern": "Starbase 234",
+          "IsUniqueToMap": true
+        }
+      ],
+      "MapEntityExclusions": [],
+      "Name": "Event: Starbase 234"
+    },
+    {
+      "IsEnabled": true,
+      "MaxPlayers": 5,
+      "MinPlayers": 5,
+      "MapEntities": [
+        {
+          "IsEnabled": true,
+          "Pattern": "_Royal_Flush_Tfo",
+          "IsUniqueToMap": true
+        }
+      ],
+      "MapEntityExclusions": [],
+      "Name": "Event: Royal Flush"
+    },
+    {
+      "IsEnabled": true,
+      "MaxPlayers": 5,
+      "MinPlayers": 5,
+      "MapEntities": [
+        {
+          "IsEnabled": true,
+          "Pattern": "Space_Federation_Cruiser_Vtx_Tfo_Evacuation_Ship",
+          "IsUniqueToMap": true
+        }
+      ],
+      "MapEntityExclusions": [],
+      "Name": "Event: Resistance of Starbase One"
+    },
+    {
+      "IsEnabled": true,
+      "MaxPlayers": 1,
+      "MinPlayers": 1,
+      "MapEntities": [
+        {
+          "IsEnabled": true,
+          "Pattern": "L.S.S. Jaaleet",
+          "IsUniqueToMap": false
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "L.S.S. Reskava",
+          "IsUniqueToMap": false
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "L.S.S. Treluun",
+          "IsUniqueToMap": false
+        },
+        {
+          "IsEnabled": true,
+          "Pattern": "L.S.S. Vuut",
+          "IsUniqueToMap": false
+        }
+      ],
+      "MapEntityExclusions": [],
+      "Name": "Patrol: Rescue and Search"
     }
   ],
   "GenericGroundMap": {
